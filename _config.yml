@@ -17,10 +17,10 @@ resume_title:                   "Postdoctoral Researcher at KAIST"
 resume_contact_email:           "0620hana.kim@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "010-5312-2955"
+resume_contact_telephone:       "010-0000-0000"
 resume_contact_address:         "KAIST"
 
-resume_header_contact_info:     "KAIST • 010-5312-2955 • 0620hana.kim@gmail.com"
+resume_header_contact_info:     "KAIST • 010-0000-0000 • 0620hana.kim@gmail.com"
 display_header_contact_info:    "false"
 
 resume_header_intro: "<p>Engineering, Management, Biology and Philanthropist</p>"
