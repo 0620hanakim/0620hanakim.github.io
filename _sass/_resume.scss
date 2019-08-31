@@ -30,7 +30,7 @@
   }
 
   .header-name {
-    @include sans;
+    @include sans_bold;
     font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
