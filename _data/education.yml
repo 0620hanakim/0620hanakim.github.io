@@ -1,13 +1,16 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
-
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Ph.D. of Technology management, economics and policy
+  uni: Seoul National University
+  year: 2013 &mdash; 2018
+  summary: I taught a microeconomics class for first year graduate students. 
+  <p>As a research team leader, I taught the behavioral economics as well as guided a few Ph.D students and led Master students to graduate. </p>
+    
+- degree: Master of Medical Sceince
+  uni: Seoul National University
+  year: 2011 &mdash; 2013
+  summary: I wrote 2 articles as the first author in SCI journals and participated 3 SCI journal articles.
+  
+- degree: Bachelor of Biology and Food sceince
+  uni: Handong Global University
+  year: 2005 &mdash; 2010
+  summary: I organized the English Camp for from the elemantary school students.
