@@ -31,7 +31,7 @@
 
   .header-name {
     @include sans_bold;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
     text-align: center;
     letter-spacing: -.15rem;
@@ -54,7 +54,7 @@
     @include clearfix;
 
     .header-title {
-      @include sans;
+      @include sans_bold;
       font-weight: 300;
       font-size: 1.75rem;
       line-height: 2rem;
