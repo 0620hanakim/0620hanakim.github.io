@@ -33,7 +33,7 @@ resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
-resume_section_research interests: true
+resume_section_research_interests: true
 resume_section_skills:             true
 resume_section_education:          true
 resume_section_publications:       true
