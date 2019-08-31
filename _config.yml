@@ -1,5 +1,5 @@
 # Site settings
-title: "Dr. Kim Hana Homepage"
+title: "Dr. Hana Kim Homepage"
 description: "A resume and research interests for Dr.Kim"
 
 # Build settings
@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Dr. Kim Hana"
+resume_name:                    "Dr. Hana Kim"
 resume_title:                   "Postdoctoral Researcher at KAIST"
 
 # used for the contact button in _layouts/resume.html
