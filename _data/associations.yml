@@ -1,0 +1,14 @@
+# Associations
+# comment out the urls if you do not wish to display them
+
+- organization: Seoul National University
+  role: Researcher
+  year: 2018 &mdash; Present
+  #url: 
+  summary: Meta-frontier Analysis and Big data analysis on customers preference and industry pattern for a firms' optimal strategy as the innovation diffusion 
+
+- organization: KAIST
+  role: Senior Researcher
+  year: 2018 &mdash; present
+  url: http://cifs.kaist.ac.kr/people/view/sc_type/peo04
+  summary: Analyzing the kick-off point strategy for the country and firms
