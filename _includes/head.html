@@ -5,6 +5,7 @@
   <meta name="google-site-verification" content="sDaf8XfPANy2UCSlWl19jtnawB0uOGDPrx6F0QSJqps" />
   
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="title" content= "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -14,6 +15,13 @@
   <meta property="og:image:width" content="420" />
   <meta property="og:image:height" content="420" />
   <meta property="og:image:type" content="image/jpg">
+
+  <meta name="twitter:card" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta name="twitter:site" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
+  <meta name="twitter:image" content="{{ site.url }}/images/profile.jpg"/>
+
 
   <!-- Google font typography settings - defined in _config.yml -->
   {% if site.resume_theme == 'default' %}
