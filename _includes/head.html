@@ -3,10 +3,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="sDaf8XfPANy2UCSlWl19jtnawB0uOGDPrx6F0QSJqps" />
+  <link rel="alternate" hreflang="ko" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <meta name="robots">
+  <meta name="keywords" content="Hana Kim, HanaKim, KAIST, 김하나, 카이스트">
+  <meta name="author" content="Hana Kim">
 
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
