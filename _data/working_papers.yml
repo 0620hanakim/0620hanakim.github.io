@@ -2,15 +2,34 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # 
-- publication: Management.
-  author: Kim, H., Lee, D., & Hwang, J. (2018).
+- publication: Why do not you play the game while watching the game streaming?
+  author: Kim, H., Lee, D.
   journal:
   #url: "#"
-  description: Find extraordiniary things
+  description: 
 
 # 
-- publication: Economics.
-  author: Kim, H., Lee, D., & Hwang, J. (2018).
+- publication: Strategic management of autonomous vehicles: consumer preference and market segmentation
+  author: Kim, H., Moon, H.
   journal:
   #url: "#"
-  description: Sustaniable Economics
+  description: 
+  
+  # 
+- publication: Clusters, open innovation strategies and economic performance
+  author: Kim, H., Kim, E.
+  journal:
+  #url: "#"
+  description: 
+  
+  - publication: The impact of social capital on US pharmaceutical innovation cluster performance
+  author: Kim, H., Kim, E.
+  journal:
+  #url: "#"
+  description: 
+  
+  - publication: Education leads the successful country level innovation 
+  author: Kim, H., Kim, W.
+  journal:
+  #url: "#"
+  description: 
