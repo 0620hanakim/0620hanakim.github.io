@@ -14,16 +14,16 @@ resume_name:                    "Ph.D. Hana Kim"
 resume_title:                   "Technology Management, Economics and Policy"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "0620hana.kim@gmail.com"
+resume_contact_email:           "hanakim@kaist.ac.kr"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       ""
 resume_contact_address:         "false"
 
-resume_header_contact_info:     "0620hana.kim@gmail.com"
-display_header_contact_info:    "0620hana.kim@gmail.com"
+resume_header_contact_info:     "hanakim@kaist.ac.kr"
+display_header_contact_info:    "hanakim@kaist.ac.kr"
 
-resume_header_intro: "<p>Research Professor at KIAST and Senior Researcher at Seoul National University</p>"
+resume_header_intro: "<p>Research Professor at KIAST and Senior Researcher at Seoul National University</p>E-mail: hanakim@kaist.ac.kr"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
