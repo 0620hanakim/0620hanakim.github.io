@@ -1,7 +1,8 @@
 # Degree
 - degree: Ph.D. of Technology management, economics and policy
   uni: Seoul National University
-  year: 2013 &mdash; 2018
+  year:  2018
+  dissertation: dissertation
   awards:
   summary:
     I taught a microeconomics class for first year graduate students.<br>
@@ -9,12 +10,14 @@
     
 - degree: Master of Medical Sceince
   uni: Seoul National University
-  year: 2011 &mdash; 2013
+  year:  2013
+  dissertation:
   awards:
   summary: I wrote 2 articles as the first author in SCI journals and participated 3 SCI journal articles.
   
 - degree: Bachelor of Biology and Food sceince
   uni: Handong Global University
-  year: 2005 &mdash; 2010
+  year:  2010
+  dissertation:
   awards:
   summary: I organized the English Camp for from the elemantary school students.
