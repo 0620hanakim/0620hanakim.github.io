@@ -95,8 +95,8 @@
 
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-details group" itemprop="description">{{ education.uni }}, {{ education.degree }}, {{ education.year }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">&nbsp;&nbsp;&nbsp;{{ education.dissertation }}</h4>
+          <h3 class="resume-item-details group" itemprop="name">{{ education.uni }}, {{ education.degree }}, {{ education.year }}</h3>
+          {% if education.dissertation %}<h4 class="resume-item-details group" itemprop="description">&nbsp;&nbsp;&nbsp;&nbsp;{{ education.dissertation }}</h4>{% endif %}
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
