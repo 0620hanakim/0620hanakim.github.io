@@ -1,6 +1,13 @@
 # Publcations
 # uncomment the urls if you wish to display them, and add your own URL
 
+
+# 
+- publication: (Selected Publication) The Valuation of Small and Medium Enterprises: Based on the Resource Based View
+  author: Kim, H. (2022).
+  journal: Strategic Management Journal, under review 
+  description: This study derives key factors for the valuation of small and medium enterprises (SMEs), using the resource allocation strategy frame drawn from the resource-based view. As these factors vary according to the industry group characteristics, this study classifies industries into manufacturing and service industries. Subsequently, it selects the major factors through random forest-based dimension reduction and panel analysis; it performs K-means cluster analysis according to each major factor’s characteristics. By analyzing the pattern of the highest productivity cluster, it reveals the characteristics of the cluster’s major factors. This study contributes to suggest a RBV research frame for the valuation of SMEs in each industry, which breaks the traditional strategy studies focusing on the one dimension.
+ 
 # 
 - publication: (Selected Publication) The effect of online platform maturity on the efficiency of offline industry.
   author: Kim, H., Lee, D., & Hwang, J. (2018).
