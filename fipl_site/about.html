@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>소개 | FIPL</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-section {
+      max-width: 880px;
+      margin: 56px auto 0 auto;
+      background: #fff;
+      border-radius: 13px;
+      padding: 3.1rem 2.3rem 2.5rem 2.3rem;
+      box-shadow: 0 3px 16px rgba(36,42,57,0.09);
+      font-size: 1.11rem;
+    }
+    .about-section h2, .about-section h3 {
+      color: #15395B;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    .about-section h2 { margin-top: 0; margin-bottom: 1.4rem; }
+    .about-section h3 {
+      margin-top: 2.2rem;
+      margin-bottom: 1.15rem;
+      font-size: 1.15rem;
+      border-bottom: 1.5px solid #e3e7ef;
+      padding-bottom: .3em;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    .about-section p, .about-section li {
+      color: #31343e;
+      line-height: 1.88;
+      word-break: keep-all;
+      margin-bottom: 1.1rem;
+      letter-spacing: 0;
+    }
+    .about-section ul {
+      margin: 0 0 0.9em 1.3em;
+      padding: 0;
+      font-size: 1.06rem;
+    }
+    .about-section li {
+      margin-bottom: 0.37em;
+      color: #4b5260;
+    }
+    .field-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.45em 2.1em;
+      margin-bottom: 0.2em;
+    }
+    .field-card {
+      background: #f5f7fa;
+      border-radius: 10px;
+      box-shadow: 0 1px 5px rgba(36,42,57,0.045);
+      padding: 1.23rem 1.38rem 1.09rem 1.38rem;
+      min-width: 0;
+      margin-bottom: 0;
+    }
+    .field-card h4 {
+      color: #173b5f;
+      font-size: 1.08rem;
+      margin: 0 0 0.68em 0;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    .highlight-list {
+      background: #f9fafc;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(36,42,57,0.04);
+      padding: 1.18rem 1.38rem 1.13rem 1.38rem;
+      margin-bottom: 1.6em;
+      border-left: 3px solid #15395B;
+    }
+    .timeline {
+      margin: 0.4em 0 1.8em 0;
+      padding-left: 0;
+      border-left: 2px solid #e5e7eb;
+    }
+    .timeline-item {
+      margin-bottom: 1.13rem;
+      padding-left: 1.18rem;
+      position: relative;
+    }
+    .timeline-item h4 {
+      margin: 0 0 0.08em 0;
+      font-size: 1.03rem;
+      color: #15395B;
+      font-weight: 600;
+    }
+    .timeline-item:before {
+      content: "";
+      position: absolute;
+      left: -11px;
+      top: 10px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #15395B;
+    }
+    @media(max-width:900px){
+      .about-section { padding: 1.3rem 0.5rem; }
+      .field-cards { grid-template-columns: 1fr; gap: 1.05em;}
+      .highlight-list { padding: 1.07rem 0.8rem 0.9rem 1rem;}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">FIPL</a>
+    <ul class="nav-links">
+      <li><a href="index.html">홈</a></li>
+      <li><a href="about.html">소개</a></li>
+      <li><a href="products.html">교육과정</a></li>
+      <li><a href="contact.html">문의</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section>
+  <div class="about-section">
+
+    <h2>연구소 소개</h2>
+    <p>
+      <strong>Future Innovation Policy Lab(FIPL)</strong>은 기술 혁신이 사회 전체의 지속가능한 발전으로 이어지도록,
+      인간 중심, 정책 기반, 데이터 증거에 바탕을 둔 연구와 교육을 수행합니다.
+    </p>
+    <h3>미션(Mission)</h3>
+    <p>모든 이해관계자가 기술을 안전하고 책임감 있게 활용할 수 있도록 지식, 정책, 역량을 연결합니다.</p>
+    <h3>비전(Vision)</h3>
+    <p>포용적 디지털 전환을 선도하는 글로벌 싱크탱크이자 교육 허브가 되는 것을 목표로 합니다.</p>
+    <h3>핵심 가치 (Core Values)</h3>
+    <ul>
+      <li><b>Accessibility</b> – 누구나 이해할 수 있는 언어와 형식으로 지식을 공유합니다.</li>
+      <li><b>Responsibility</b> – AI 윤리, 사회적 영향 평가를 필수 요소로 통합합니다.</li>
+      <li><b>Sustainability</b> – 단기 유행이 아닌 장기적 공익 창출을 지향합니다.</li>
+    </ul>
+
+    <h2 style="margin-top:2.6rem;">설립자 – 김하나 박사</h2>
+<p>
+  김하나는 서울대학교에서 의학 석사와 기술경영경제정책 박사 학위를 취득하고,<br>
+  현재 KAIST 기술경영학부 연구교수이자 혁신전략정책연구소(ISPI) 겸임교수로 재직 중이다.<br>
+  KAIST의 “데이터기반기술전략개발” 강의뿐만 아니라, <br>
+  연구재단과 KISTEP, 홍콩과기대 등 국내외에서 데이터 기반 전략 및 정책 수립 관련 교육을 하고 있다.<br>
+  그리고 영어 교육, 국제학생 지도, AI 통계 및 데이터 기반 의사결정 강의 등 <br>
+  공공기관·기업·교육 현장을 연결하는 실무형 정책·교육 프로젝트를 운영해오고 있다.<br>
+  OECD STI(Science Technology and Innovation)에서 알츠하이머 공공-민간 파트너십(PPP) 연구를 <br>
+  하였으며, 공공기관, 스타트업 및 중견기업과 기술혁신, AI 기반 데이터 전략, 미래기술예측 연구 및 자문 활동을 하고 있다.
+  <a href="https://btm.kaist.ac.kr/doc/ko/selectDoc.do?docSeq=2612&menuSeq=3294&bbsSeq=128" target="_blank"
+     style="display:inline-block;margin-top:0.7em;color:#194c93;text-decoration:underline;font-weight:500;">
+    [공식 프로필 바로가기 &gt;]
+  </a>
+  <a href="https://scholar.google.co.kr/citations?user=8hxjXpYAAAAJ&hl=ko" target="_blank"
+     style="display:inline-block;margin:0.6em 0 0 0;color:#194c93;text-decoration:underline;font-weight:500;">
+    [Google Scholar &gt;]
+  </a>
+</p>
+    <h3>주요 연구 분야별 성과</h3>
+    <div class="field-cards">
+      <div class="field-card">
+        <h4>혁신보조금·개방형 R&D</h4>
+        <ul>
+          <li>산업 단계, 파트너 이질성 반영 보조금 정책 효과 실증</li>
+          <li>TFSC, Industry & Innovation 논문: 단계·기업·보조금별 차이 실증, 개방형 R&D 거버넌스 설계</li>
+          <li>Science of Science Policy(중점연구소), SSK 산업미래전략 등 대표 프로젝트</li>
+        </ul>
+      </div>
+      <div class="field-card">
+        <h4>고위험 기술 거버넌스</h4>
+        <ul>
+          <li>AI·자율주행 등 고위험 기술의 다층 위험관리, 규제·보조금 정책 연구</li>
+          <li>AJTI 논문: D-N-A/U-S-E 축 기반 자율주행 위험 지표·로드맵 제시</li>
+          <li>KISTEP DREAM Academy, NRF Issue Paper 등 참여</li>
+        </ul>
+      </div>
+      <div class="field-card">
+        <h4>스타트업·공적 자금·시장 성공</h4>
+        <ul>
+          <li>PhD 창업, 보조금, 시장성의 삼중 메커니즘 실증</li>
+          <li>Complex Systems, Market Words Ratio 기반 스타트업 엑싯·정부지원 예측</li>
+        </ul>
+      </div>
+      <div class="field-card">
+        <h4>AI·블록체인 정책</h4>
+        <ul>
+          <li>공공기관 AI·블록체인 도입 효과, 위험 완충, 데이터 거버넌스</li>
+          <li>Blockchain Policies 논문(JCR 1%), OECD PPP 보고서, 과기정통부 AI 자문 등</li>
+        </ul>
+      </div>
+      <div class="field-card" style="grid-column:span 2;">
+        <h4>인구·복지·노동</h4>
+        <ul>
+          <li>육아휴직·고령화·저출산 정책의 경제·사회 파급효과 실증</li>
+          <li>KLIPS·KOSIS·GIS 기반 연구, 정부 정책/특허 데이터 활용 저출산·고령화 분석</li>
+          <li>과학기술유공자, 청년/박사후 인재 국가정책 등 대표 프로젝트</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>연구 경력 및 대표 실적</h3>
+    <div class="highlight-list" style="margin-top:0;">
+      <ul>
+        <li>SSCI 12편, SCI 4편, KCI 4편, 국제학술대회 발표 4편 등 총 24편의 연구 성과 출판</li>
+        <li>SSCI 논문 평균 IF 25.6(Q1 상위 5% 초과, 중위값 2.4의 10배)</li>
+        <li>FWCI 1.64 (동 분야 세계 평균 대비 64% 높음)</li>
+        <li>SSCI 논문 2편 revise, 5편 under review, 정책 관련 9편 추가 투고 준비 중</li>
+        <li>Science of Science Policy(중점연구소), SSK 산업미래전략, OECD STI PPP, 다수 국책 프로젝트 경험</li>
+      </ul>
+    </div>
+
+    <h3>대표 저서</h3>
+    <div class="highlight-list" style="margin-top:0;">
+      <ul>
+        <li>AI의료경영 (2025년 하반기 출간 예정)</li>
+        <li>생성형 AI step by step (2025년 8월 출간)</li>
+        <li>AI 통계, 한빛아카데미 (2024년)</li>
+        <li>AI 글로벌 동향 보고서 Clarivate와 공동 집필</li>
+        <li>OECD STI Public private partnership 집필 참여</li>
+      </ul>
+    </div>
+
+<h3>경력</h3>
+<div class="highlight-list" style="margin-top:0;">
+  <ul>
+    <li>2024 – 현재 : 부산대 공기업리더십과정 생성형 AI 행정·정책수립 활용방법 강의</li>
+    <li>2021 – 현재 : KAIST BTM 연구교수, AI·혁신정책 강의</li>
+    <li>2022 – 현재 : 한국연구재단(NRF), KISTEP 등 정부기관 AI 활용 세미나 및 자문 프로젝트 기획·운영</li>
+  </ul>
+</div>
+
+
+    <h3>관심사</h3>
+    <div class="highlight-list" style="margin-top:0;">
+      <ul>
+        <li>생성형 AI 정책, 윤리, 표준화</li>
+        <li>오픈혁신과 지식재산(IP) 성과 분석</li>
+        <li>공공 데이터 기반 사회문제 해결</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>상호: 미래혁신정책연구소 | 사업자등록번호: 529‑15‑02731</p>
+    <p>대표자: 김하나 | 주소: 대전광역시 서구 청사로 281, 206동 301호 | 연락처: 010‑5312‑2955</p>
+    <small>© 2025 Future Innovation Policy Lab. All rights reserved.</small>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="ko"><head>
+<meta charset="UTF-8"><title>결제 결과</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head><body>
+<h2>결제 결과</h2>
+<pre id="out">처리 중...</pre>
+<p><a href="index.html">홈으로</a></p>
+<script>
+  const qs = new URLSearchParams(location.search);
+  const o = {}; for (const [k,v] of qs) o[k]=v;
+  document.getElementById('out').textContent = JSON.stringify(o, null, 2);
+</script>
+</body></html>

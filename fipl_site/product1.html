@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>고령층 AI 입문반 | FIPL</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.iamport.kr/js/iamport.payment‑1.2.0.js"></script>
+  <script src="payment.js"></script>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">FIPL</a>
+    <ul class="nav-links">
+      <li><a href="index.html">홈</a></li>
+      <li><a href="about.html">소개</a></li>
+      <li><a href="products.html">교육과정</a></li>
+      <li><a href="contact.html">문의</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="course-detail">
+  <div class="container">
+    <div class="card">
+  <div class="course-header">
+    <h2>고령층 AI 입문반</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <div class="top-content">
+    <div class="left-content">
+      <div class="course-structure">
+            <h3>프로그램 구성</h3>
+            <ul>
+              <li><strong>수강료:</strong> 500,000원/인</li>
+              <li><strong>수강인원:</strong> 10명 ~ 20명</li>
+              <li><strong>대상:</strong> 공공기관·기업 임직원, 일반 성인 학습자</li>
+              <li><strong>기간:</strong> 3주 (주 2회 × 3시간)</li>
+              <li><strong>형식:</strong> 온·오프라인 병행, 실습 70% / 강의 30%</li>
+            </ul>
+          </div>
+
+          <div class="course-overview">
+            <h3>과정 개요 및 학습 목표</h3>
+            <ul>
+              <li>생성형 AI의 원리와 한계를 이해합니다.</li>
+              <li>프롬프트 엔지니어링 기법을 습득해 업무에 적용합니다.</li>
+              <li>AI 윤리·정책 이슈를 파악하고 조직별 대응 전략을 수립합니다.</li>
+              <li>고령층(50+) 눈높이에 맞춘 생성형 AI·ChatGPT 기초</li>
+              <li>스마트폰으로 일정·메모·정보검색 자동화 실습</li>
+              <li>AI 사용 시 개인정보·보안 주의점 안내</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="right-content">
+          <img src="images/senior_ai2.png" alt="고령층 AI 입문 대표 이미지2">
+        </div>
+      </div>
+
+      <div class="course-curriculum">
+        <h3>회차별 커리큘럼</h3>
+        <table>
+          <thead>
+            <tr>
+              <th style="width:10%">회차</th>
+              <th>주요 내용</th>
+              <th style="width:20%">학습 방식</th>
+              <th style="width:15%">비고</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1회차</td><td>생성형 AI 개요와 최신 트렌드</td><td>강의 및 사례 소개</td><td>사례 자료 제공</td></tr>
+            <tr><td>2회차</td><td>텍스트 프롬프트 엔지니어링 실습</td><td>노트북 실습 및 그룹 활동</td><td>실습 피드백</td></tr>
+            <tr><td>3회차</td><td>이미지·멀티모달 AI 응용 및 체험</td><td>스마트폰 앱 실습</td><td>앱 다운로드 안내</td></tr>
+            <tr><td>4회차</td><td>데이터 프라이버시·보안·윤리 교육</td><td>토론 및 사례 분석</td><td>윤리 지침 제공</td></tr>
+            <tr><td>5회차</td><td>직무별·생활 속 AI 활용 시뮬레이션 워크숍</td><td>실습 워크숍</td><td>워크북 제공</td></tr>
+            <tr><td>6회차</td><td>Capstone Project 발표 및 피드백</td><td>발표 및 평가</td><td>수료증 발급</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="course-policy">
+        <h3>배송·교환·환불 정책</h3>
+        <ul>
+          <li>비배송 디지털 교육 (링크 및 교안 PDF 제공)</li>
+          <li>개강 1달 전까지 100% 환불, 이후 환불 불가</li>
+        </ul>
+      </div>
+
+      <div class="course-payment">
+        <h3>결제</h3>
+        <div class="payment-controls">
+          <label for="qty1">참여 인원 선택:</label>
+          <input id="qty1" type="number" value="10" min="10" max="20"><span>명</span>
+
+          <button class="paybtn pay-inicis"
+                  onclick="pay('html5_inicis','고령층 AI 입문반',500000,Number(qty1.value),10,20)">
+            KG이니시스 결제
+          </button>
+          <a href="contact.html" class="paybtn inquiry-btn">문의하기</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer>
+  <div class="container">
+    <p>상호: 미래혁신정책연구소 | 사업자등록번호: 529‑15‑02731</p>
+    <p>대표자: 김하나 | 주소: 대전광역시 서구 청사로 281, 206동 301호 | 연락처: 010‑5312‑2955</p>
+    <small>© 2025 Future Innovation Policy Lab. All rights reserved.</small>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,465 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'Noto Sans KR', sans-serif;}
+body{line-height:1.6;color:#333;background:#fdfdfd;}
+.container{width:90%;max-width:1200px;margin:auto;}
+.navbar{background:#003366;color:#fff;padding:1rem 0;}
+.logo{font-size:1.5rem;font-weight:bold;color:#fff;text-decoration:none;}
+.nav-links{list-style:none;display:flex;gap:1rem;}
+.nav-links a{color:#fff;text-decoration:none;}
+.hero{
+  background:url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1350&q=80') center/cover;
+  width:100%;height:60vh;display:flex;align-items:center;justify-content:center;
+  color:#fff;text-align:center;padding:0 1rem;
+}
+.hero h1{font-size:2.5rem;margin-bottom:1rem;text-shadow:2px 2px 4px rgba(0,0,0,0.6);}
+.hero p{font-size:1.25rem;margin-bottom:2rem;text-shadow:1px 1px 3px rgba(0,0,0,0.6);}
+.btn{display:inline-block;background:#ffb100;color:#fff;padding:0.75rem 1.5rem;border-radius:4px;text-decoration:none;font-weight:bold;}
+section{padding:3rem 0;}
+section h2{font-size:2rem;margin-bottom:1.5rem;text-align:center;}
+.course-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.5rem;}
+.card{background:#fff;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.10);padding:2rem 1.5rem 1.5rem 1.5rem;text-align:left;}
+.card h3{margin-bottom:1.3rem;color:#003366;}
+.card p{font-size:1.04rem;margin-bottom:1.2rem;}
+.card ul{margin:1rem 0 1.2rem 1.2rem;}
+.card table{width:100%;margin-bottom:0.6rem;border-collapse:collapse;}
+.card th,.card td{border:1px solid #eaeaea;padding:0.55rem 0.8rem;font-size:0.97rem;}
+.card th{background:#f5f7fa;}
+footer{background:#003366;color:#fff;text-align:center;padding:1rem 0;margin-top:3rem;}
+.contact-form{max-width:600px;margin:auto;}
+.contact-form label{display:block;margin-bottom:0.5rem;font-weight:bold;}
+.contact-form input, .contact-form textarea{width:100%;padding:0.75rem;margin-bottom:1rem;border:1px solid #ccc;border-radius:4px;}
+.contact-form button{background:#003366;color:#fff;padding:0.75rem 1.5rem;border:none;border-radius:4px;font-size:1rem;}
+@media(max-width:800px){.course-grid{grid-template-columns:1fr;}}
+
+/* === FIPL 결제·상품 전용 === */
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+.product{background:#fff;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.08);padding:1.5rem}
+.product h2{color:#003366;margin-bottom:.6rem;font-size:1.12rem}
+.product p{margin-bottom:.3rem;font-weight:600}
+.product a{display:inline-block;margin-top:.5rem;color:#ff7a00;font-weight:700;text-decoration:none}
+.paybtn{display:inline-block;margin:.35rem .35rem 0 0;padding:.6rem 1.1rem;border:0;border-radius:6px;color:#fff;font-weight:600}
+.pay-inicis{background:#ff7a00}.pay-kakao{background:#FEE500;color:#000}.pay-naver{background:#1EC800}
+
+/* 상세 페이지 전용 스타일 */
+.course-detail .card {
+  padding: 6rem; /* 카드의 모든 여백 균등하게 설정 */
+  padding-bottom: 2rem; /* 하단 여백도 정확히 3rem으로 맞춤 */
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 8px rgba(0,0,0,0.08);
+  margin-top: 3rem;
+  box-sizing: border-box;
+}
+
+.course-detail h2 {
+  color: #003366;
+  border-bottom: 2px solid #ff7a00;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.course-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  color: #555;
+}
+
+.course-type {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  color: #777;
+}
+
+.course-overview {
+  margin-top: 1.5rem;
+}
+
+.course-overview .overview-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.course-overview .overview-container ul {
+  flex: 1;
+  min-width: 280px;
+  margin-left: 1.3rem;
+}
+
+.course-overview .overview-container img {
+  flex: 1;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+/* 상단 컨텐츠(텍스트와 이미지) 정렬 */
+/* 이미지와 텍스트 간격 극대화 축소 및 정렬 */
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* 세로 중앙 정렬 */
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.left-content {
+  flex: 2;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem; /* 위쪽으로 여백 추가해서 이미지 내려줌 */
+}
+
+.right-content img {
+  width: 100%;
+  height: 350px;
+  max-width: 350px;
+  object-fit: cover;       /* 이미지 비율 유지하며 컨테이너를 가득 채움 */
+  border-radius: 8px;
+    margin-top: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* 섹션 간 일정 간격 설정 */
+.course-structure,
+.course-overview,
+.course-curriculum,
+.course-policy,
+.course-payment {
+  margin-bottom: 2.5rem; /* 섹션 간 여백 통일 및 충분히 확보 */
+}
+
+/* 결제 섹션 제목과 콘텐츠 간격 명확히 설정 */
+.course-payment h3 {
+  margin-bottom: 1rem;
+}
+
+
+/* 주차별 커리큘럼 테이블 */
+.course-curriculum table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  table-layout: fixed;
+}
+
+.course-curriculum th,
+.course-curriculum td {
+  border: 1px solid #ddd;
+  padding: 0.6rem; /* 읽기 좋게 미세 조정 */
+  text-align: left;
+  vertical-align: middle;
+  word-break: keep-all;
+  font-size: 0.95rem;
+}
+
+.course-curriculum th:nth-child(1),
+.course-curriculum td:nth-child(1) {
+  width: 12%;
+}
+
+.course-curriculum th:nth-child(2),
+.course-curriculum td:nth-child(2) {
+  width: 34%; /* 주요 내용 영역 확장 */
+}
+
+.course-curriculum th:nth-child(3),
+.course-curriculum td:nth-child(3),
+.course-curriculum th:nth-child(4),
+.course-curriculum td:nth-child(4) {
+  width: 20%; /* 나머지 두 열 균형 있게 배분 */
+}
+
+
+
+/* 결제 영역 컨트롤 스타일 */
+.payment-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.payment-controls label {
+  font-weight: bold;
+}
+
+.payment-controls input[type="number"] {
+  width: 60px;
+  padding: 0.4rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* 결제 버튼 및 문의하기 버튼 스타일 통일 및 테두리 강조 */
+.pay-button-group {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.paybtn, .inquiry-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  height: 36px;
+  transition: opacity 0.3s ease;
+  color: #fff;
+}
+
+
+/* KG이니시스 결제 버튼 - 고급진 네이비 색상 */
+.pay-inicis {
+  background-color: #003366;
+}
+
+/* 문의 버튼 - 고급스러운 골드 색상 */
+.inquiry-btn {
+  background-color: #B8860B;
+}
+
+.pay-inicis:hover,
+.inquiry-btn:hover {
+  opacity: 0.85;
+}
+
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.courses-section {
+  flex: 1; /* Footer를 최하단으로 내리는 핵심 스타일 */
+  padding-top: 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.product {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  padding: 1rem;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+.product h2 {
+  color: #003366;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product .abstract {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.7rem;
+}
+
+footer {
+  background: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 화면 전체 높이를 차지 */
+}
+
+main, section {
+  flex: 1; /* 콘텐츠 영역이 남은 공간을 채워서 footer를 맨 아래로 밀어냄 */
+}
+
+.price-info {
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-align: center; /* 텍스트 중앙 정렬로 더 깔끔하게 표시 */
+}
+
+
+.courses-description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+}
+
+
+
+.course-policy {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.course-meta p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+
+.course-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.course-header h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+.section-line {
+  width: 120px;
+  height: 2px;
+  background-color: #ff7a00;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/* 2단 카드 공통 스타일 */
+.card.two-column {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 3rem;
+  margin-bottom: 2.5rem;
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
+
+.card.two-column.reverse {
+  flex-direction: row-reverse; /* 이미지와 텍스트 위치 반대로 */
+}
+
+.text-column {
+  flex: 1;
+  color: #31343e;
+}
+
+.text-column h2 {
+  font-size: 2rem;
+  color: #15395B;
+  border-bottom: 3px solid #ff7a00;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-column h3 {
+  font-size: 1.3rem;
+  color: #15395B;
+  border-bottom: 1px solid #e3e7ef;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-column p,
+.text-column li {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  margin-bottom: 1rem;
+}
+
+.styled-list {
+  padding-left: 1.5rem;
+}
+
+.styled-list li {
+  position: relative;
+  padding-left: 0.8rem;
+}
+
+.styled-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #ff7a00;
+}
+
+.image-column {
+  flex: 1;
+}
+
+.image-column img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* 프로필 링크 스타일 */
+.profile-link {
+  display: inline-block;
+  color: #194c93;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* 반응형 레이아웃 */
+@media (max-width: 900px) {
+  .card.two-column, .card.two-column.reverse {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .image-column {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}

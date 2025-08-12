@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="ko"><head>
+<meta charset="UTF-8">
+<title>문의 | FIPL</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head><body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">FIPL</a>
+    <ul class="nav-links">
+      <li><a href="index.html">홈</a></li>
+      <li><a href="about.html">소개</a></li>
+      <li><a href="products.html">교육과정</a></li>
+      <li><a href="contact.html">문의</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section>
+  <div class="container">
+    <h2>프로그램 문의</h2>
+    <p style="margin-bottom:1.3em;">
+      궁금하신 점은 아래 양식 또는 <b>future.innovation.policy.lab@gmail.com</b>으로 메일 주세요.
+    </p>
+    <form class="contact-form" name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact">
+      <label for="name">이름&nbsp;/&nbsp;기관</label>
+      <input id="name" type="text" name="name" required>
+      <label for="email">이메일</label>
+      <input id="email" type="email" name="email" required>
+      <label for="course">관심 과정</label>
+      <select id="course" name="course">
+        <option value="senior">AI 시니어·초보자 과정</option>
+        <option value="youth">ChatGPT 연구방법(중·고)</option>
+        <option value="custom">맞춤 컨설팅/워크숍</option>
+      </select>
+      <label for="message">세부 문의 사항</label>
+      <textarea id="message" name="message" rows="6" placeholder="희망 일정, 인원, 목표 등을 적어주세요." required></textarea>
+      <button type="submit">보내기</button>
+    </form>
+  </div>
+</section>
+
+<footer><div class="container">
+    <p>상호: 미래혁신정책연구소 | 사업자등록번호: 529‑15‑02731</p>
+    <p>대표자: 김하나 | 주소: 대전광역시 서구 청사로 281, 206동 301호 | 연락처: 010‑5312‑2955</p>
+    <small>© 2025 Future Innovation Policy Lab. All rights reserved.</small>
+</div></footer>
+</body></html>
